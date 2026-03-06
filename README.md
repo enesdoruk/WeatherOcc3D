@@ -4,8 +4,6 @@
 
 **WeatherOcc3D** is a robust multi-modal 3D semantic occupancy prediction framework for autonomous driving. By leveraging a pre-trained CLIP text encoder, the model dynamically adjusts the trust between camera and LiDAR inputs based on real-time environmental conditions (e.g., shifting reliance to LiDAR during a rainy night).
 
-![WeatherOcc3D Architecture](figures/weatherocc.png)
-*Overview of the WeatherOcc3D architecture.*
 
 ## 🚀 Highlights
 * **Dynamic VLM-Guided Fusion:** Automatically suppresses noise-contaminated sensor channels based on weather and lighting conditions.
